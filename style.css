@@ -1,0 +1,99 @@
+
+body {
+    background-color: #f8f9fa;
+    position: relative;
+    font-family: "Roboto Condensed", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+  }
+
+  .navbar-custom {
+    background-color: #ffffff;
+    padding: 10px 0;
+  }
+  .navbar-brand {
+    font-weight: bold;
+  }
+  .navbar-nav {
+    flex: 1;
+    justify-content: end;
+  }
+  .nav-link {
+    margin-left: 20px;
+  }
+  .profile-card {
+    background-color: #ffffff;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin-bottom: 40px;
+  }
+
+  .profile-pic {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    object-fit: cover;
+  }
+
+  .btn-custom {
+    background-color: #007bff;
+    border: none;
+    color: white;
+    transition: background-color 0.3s, color 0.3s;
+  }
+
+  .btn-custom:hover {
+    background-color: white;
+    color: #007bff;
+  }
+
+  .btn-outline-custom {
+    border: 1px solid #007bff;
+    color: #007bff;
+    transition: background-color 0.3s, color 0.3s;
+  }
+
+  .btn-outline-custom:hover {
+    background-color: #007bff;
+    color: white;
+  }
+  .course-card {
+    overflow: hidden;
+  }
+  .course-card img {
+    width: 100%;
+    height: auto;
+    transition: transform 0.3s ease;
+  }
+
+  .course-card:hover img {
+    transform: scale(1.1);
+  }
+
+  .section {
+    padding: 60px 0;
+    margin-bottom: 40px;
+  }
+
+  #courses {
+    background-color: #f2f2f2;
+  }
+
+  .job-card .card-body {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .job-card .card-body .job-details {
+    flex: 1;
+  }
+
+  .footer {
+    background-color: #343a40;
+    color: white;
+    padding: 20px;
+    text-align: center;
+  }
